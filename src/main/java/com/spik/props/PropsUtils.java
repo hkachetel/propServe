@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.altavia.props;
+package com.spik.props;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -91,6 +91,18 @@ public class PropsUtils {
 	public final Object getProperty(String propertyName) {
 		synchronized (properties) {
 			return properties.get(propertyName);
+		}
+	}
+	
+	/**
+	 * retourne la valeur d'une property, sinon la valeur par defaut
+	 * @param propertyName
+	 * @param defaultValue valeur a retourner si la property est pas trouvee
+	 * @return property value
+	 */
+	public final Object getProperty(String propertyName, String defaultValue) {
+		synchronized (properties) {
+			return properties.getProperty(propertyName, defaultValue);
 		}
 	}
 	

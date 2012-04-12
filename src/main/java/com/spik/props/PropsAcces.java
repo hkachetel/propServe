@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.altavia.props;
+package com.spik.props;
 
 import java.util.Map;
 import java.util.Properties;

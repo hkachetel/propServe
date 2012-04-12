@@ -7,6 +7,8 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
+import com.spik.props.PropsAcces;
+
 
 /**
  * @author hkachetel

@@ -6,7 +6,7 @@
 		<version>1.0.0</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-  <groupId>com.altavia</groupId>
+  <groupId>com.spik</groupId>
   <artifactId>propsServe</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
