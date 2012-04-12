@@ -24,7 +24,7 @@ public class PropsAcces {
 	}
 	
 	/**
-	 * unique classe pouvant cr��er un objet PropsAcces d��fini pour chaque ressource
+	 * unique classe pouvant créer un objet PropsAcces défini pour chaque ressource
 	 * @author hkachetel
 	 *
 	 */
@@ -78,6 +78,10 @@ public class PropsAcces {
 	
 	public Object getProperty(String propertyName) {
 		return getPropsutls().getProperty(propertyName);
+	}
+	
+	public Object getProperty(String propertyName, String defaultValue) {
+		return getPropsutls().getProperty(propertyName, defaultValue);
 	}
 	
 	public void addProperty(String propertyName, Object value, boolean saveIntoPropsFile) {

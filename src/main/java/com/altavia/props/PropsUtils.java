@@ -95,6 +95,18 @@ public class PropsUtils {
 	}
 	
 	/**
+	 * retourne la valeur d'une property, sinon la valeur par defaut
+	 * @param propertyName
+	 * @param defaultValue valeur a retourner si la property est pas trouvee
+	 * @return property value
+	 */
+	public final Object getProperty(String propertyName, String defaultValue) {
+		synchronized (properties) {
+			return properties.getProperty(propertyName, defaultValue);
+		}
+	}
+	
+	/**
 	 * ajoute une property
 	 * @param propertyName
 	 * @param value
