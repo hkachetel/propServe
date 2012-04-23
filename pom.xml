@@ -9,7 +9,7 @@
   <groupId>com.spik</groupId>
   <artifactId>propsServe</artifactId>
   <version>1.0.0</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <name>propsServe Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
